@@ -130,7 +130,8 @@ main{
   }
   .foriiolink{
     position:relative;
-    left:40%;
+    top:10px;
+    left:35%;
   }
   .box{
       padding-bottom:30px;
@@ -536,4 +537,9 @@ main{
 #ab-back{
     padding: 0px 0px;
 }
+.foriiolink{
+    position:relative;
+    top:10px;
+    left:15%;
+  }
 }
