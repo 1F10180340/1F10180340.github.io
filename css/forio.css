@@ -1,0 +1,539 @@
+body{
+    background-color: #EFEEE9;
+}
+a{
+  text-decoration: none;
+  font-family: HP Simplified Hans ;
+  color:#707070;
+  letter-spacing: 4.25px;
+}
+.imgshadow{
+    box-shadow: 15px 15px 10px -10px  rgb(182, 182, 182);
+}
+.top_image_pc{
+    width:100%;
+    display:block !important;
+}
+.top_image_sp{
+    display: none !important;
+}
+/* .a_contact{
+    top: 65px;
+    right: 76px;
+    position:absolute;
+    font-size:25px;
+    border:solid 3px #707070;
+    padding:4.75px 12px 4.75px 12px;
+} */
+.a_works{
+    top:380px;
+    left:39%;
+    position:absolute;
+    font-size:25.25px;
+    border:solid 3px #707070;
+    padding:8px 26px 8px 26px;
+}
+.a_about{
+    top:380px;
+    right:38.1%;
+    position:absolute;
+    font-size:25.25px;
+    border:solid 3px #707070;
+    padding:8px 26px 8px 26px;
+}
+ul{
+    list-style: none;
+}
+.area_top{
+    position: relative;
+    margin-top:-40px;
+}
+.navi_scrol{
+    position: absolute;;
+    top: 600px;
+    left:48.5%;
+    width:4%;
+    height:5%;
+    transform:scale(0.5,0.5);
+}
+main{
+    margin-top:140px;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding:0 0  120px 56.5px; 
+}
+.category{
+    font-size: 65px;
+    font-family: HP Simplified Hans ;
+    color:#707070;
+    opacity: 0.40;
+}
+.design_imageL{
+   padding-right:-15px;
+}
+#navray{
+    background-color: #707070;
+    color:#EFEEE9;
+}
+
+.head_designL{
+    position:absolute;
+    margin-top:-50px;
+    left:6%;
+}
+.head_designR{
+    position:absolute;
+    margin-top:-50px;
+    right:6%;
+}
+/* .design_imageR_feed{
+    margin-right: -26px;
+    
+} */
+#cate2{
+    position: relative;;
+    right:70%;
+}
+
+  .design_page{
+    font-size:15.25px;
+    border:solid 3px #707070;
+    padding:6.75px 26px 6.75px 26px;
+  }
+  .body_design{
+    padding-bottom:50px;
+    font-family: HP Simplified Hans ;
+    color:#707070;
+  }
+  .txt{
+    position: relative;
+    top:100px;
+  }
+  .h3{
+      line-height: 80px;
+      font-size:40px;
+      letter-spacing: 5.25px;
+  }
+  .other_h{
+    width:185px;
+    box-sizing:border-box;
+    font-family: HP Simplified Hans ;
+    color:#707070;
+     font-size:40px;
+    position:relative;
+    left:45%;
+    margin: 0px;
+  }
+  .foriiolink{
+    position:relative;
+    left:40%;
+  }
+  .box{
+      padding-bottom:30px;
+  }
+  .back_top{
+      width:100%;
+      padding:70px 0 70px 0;
+  }
+  #backpage{
+      transform:scale(0.5,0.5);
+      padding:101px 0 0 113px;
+      position: relative;
+      top:15px;
+  }
+  .sportscontent{
+      width:980px;
+      position: relative;
+      left:15%;
+      font-family: HP Simplified Hans ;
+      color:#707070;
+      box-sizing: border-box;
+  }
+  .sportscontent h1,h2{
+    letter-spacing: 10px;
+     color:#4d4d4d;
+  }
+  .sportscontent h1,.cate{
+    padding-left:70px;
+  }
+  .sportscontent h1,.cate{
+    padding-right:180px;
+    text-align: center;
+  }
+  .sportscontent h2{
+      width:17.5%;
+      padding:6.75px 0 6.75px 12.75px;
+      position: relative;
+      left:90px;
+      transform:scale(0.7,0.7);
+
+  }
+  .sportscontent img{
+    transform:scale(0.8,0.8);
+  }
+  .contenttx{
+      width:100%;
+      margin-top:20px;
+      margin-bottom:-25px;
+      padding: 10px 250px 0 120px;
+      box-sizing: border-box;
+      overflow-wrap: break-word;
+  }
+.nav-content{
+    position: fixed;
+    bottom:40%;
+    left:84%;
+}
+.nav-content {
+    text-align:center;
+    line-height: 50px;
+    border:3px solid #707070;
+    padding:0 10px;
+}
+
+.about{
+    font-family: HP Simplified Hans ;
+    color:#707070;
+    letter-spacing: 4.25px;
+    padding:97px;
+    padding-bottom: 0 ;
+    position: relative;
+    top:-150px;
+}
+.ab-title{
+    font-size: 42px;
+}
+
+#ab-name{
+    padding-left: 15px;
+}
+.ab-img{
+    transform:scale(0.8,0.8);
+    position: relative;
+    top:-60px;
+    left:-60px;
+}
+.ab-content{
+    margin-top:50px;
+    display: flex;
+}
+#ab-txt{
+
+    color:#707070;
+    font-size: 20.5px;
+    line-height: 36px;
+    display: block;
+    position:relative;
+    top:50px;
+    left:-60px;
+    margin-right:-250px;
+}
+#skill{
+    position: relative;
+    left:-150px;
+    transform: scale(0.7,0.7);
+}
+@media screen and (min-width:960px){
+    .container:nth-child(even) {
+        flex-direction: row-reverse;
+      }
+      .container:nth-child(even) .txt {
+        text-align: center;
+        position: relative;
+        left:6%;
+      }
+      .container:nth-child(odd) .txt {
+        text-align: center;
+        position: relative;
+        right:12%;
+      }
+      .container:nth-child(even) .photo {
+        margin-left: 0;
+        position: relative;
+        right:-13%;
+      }
+      .container:nth-child(odd) .photo {
+        position: relative;
+        left: -3%;
+        right:-5%;
+      }
+}
+
+@media screen and (max-width:480px){
+    .top_image_pc { display: none !important; }
+    .top_image_sp { display: block !important; 
+        width:100%;
+        position:relative;
+        top:120px;
+    }
+    .navi_scrol{display:none;}
+    .container{display:block;}
+    
+      .container .txt {
+        text-align: center;
+        position: relative;
+        right:9%;
+      }
+      .container .photo {
+        margin-left: 0;
+        position: relative;
+        top:80px;
+        right:7%;
+      }
+      .imgshadow{
+          width:95%;
+          height:auto;
+      }
+      .head_designL{
+        position:absolute;
+        margin-top:-180px;
+        left:10px;
+      }
+      .head_designR{
+        position:absolute;
+        margin-top:-45px;
+        right:0%;
+      }
+      #cate2{
+        position: relative;
+        right:65%;
+    }
+    #cate4{
+        position:relative;
+        top:-140px;
+        right:210px;
+    }
+    .other{
+        position: relative;
+        right:45px;
+    }
+    .a_contact{
+        top: 225px;
+        position:absolute;
+        font-size:18px;
+        font-weight: bold;
+        border:solid 3px #707070;
+        padding:9px 9px 9px 9px;
+        right:-8px;
+        transform: scale(0.8,0.8);
+    }
+    .a_works{
+        position:absolute;
+        top:115px;
+        left:72%;
+        font-size:25px;
+        border:solid 3px #707070;
+        padding:4.75px 7px 4.75px 12px;
+        transform: scale(0.8,0.8);
+    }
+    .a_about{
+        position:absolute;
+        top:170px;
+        left:72%;
+        font-size:25px;
+        border:solid 3px #707070;
+        padding:4.75px 95px 4.75px 12px;
+        transform: scale(0.8,0.8);
+    }
+    .sportscontent{
+        width:350px;
+        position: relative;
+        top:-80px;
+        left:-3%;
+        font-family: HP Simplified Hans ;
+        color:#707070;
+        box-sizing: border-box;
+    }
+    .sportscontent h1,h2{
+      letter-spacing: 10px;
+       color:#4d4d4d;
+    }
+    .sportscontent h1,.cate{
+      padding-left:70px;
+    }
+    .sportscontent h1,.cate{
+      padding-right:180px;
+      text-align: center;
+    }
+    .sportscontent h2{
+        width:17.5%;
+        padding:6.75px 0 6.75px 12.75px;
+        position: relative;
+        left:50px;
+        transform:scale(0.7,0.7);
+  
+    }
+    .sportscontent img{
+      transform:scale(1,1);
+      padding-top:15px;
+      position: relative;
+      left:30px;
+    }
+    .contenttx{
+        font-size:13px;
+        width:100%;
+        margin-top:20px;
+        margin-bottom:-25px;
+        padding: 10px 15px 30px 10px;
+        position: relative;
+        left:30px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        box-sizing: border-box;
+        overflow-wrap: break-word;
+    }
+    .nav-content{
+        position: absolute;
+        bottom:45%;
+        left:52%;
+        text-align:center;
+        line-height: 50px;
+        border:3px solid #707070;
+        padding:0 10px;
+        background-color: #EFEEE9;
+    }
+    #backpage{
+        transform:scale(0.35,0.35);
+        padding:101px 0 0 113px;
+        position: relative;
+        top:-50px;
+        left:-110px;
+    }
+    /*ハンバーガーアイコン*/
+.btn-burger {
+    cursor: pointer;
+    display: block;
+    width: 56px;
+    height: 60px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+/*ハンバーガーアイコンを作る三本線*/
+.icon, .icon:before, .icon:after {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 2px; /*線の太さ*/
+    width: 35px; /*線の長さ*/
+    background-color: #444;
+    border-radius: 2px;
+    display: block;
+    content: '';
+    cursor: pointer;
+    margin: auto;
+}
+/*三本線の間隔*/
+.icon:before {
+  top: 20px;
+}
+.icon:after {
+  top: -20px;
+}
+/*チェックボックス非表示*/
+.nav-toggle {
+    display: none;
+}
+/*アイコンをクリックしたら*/
+.nav-toggle:checked ~ .btn-burger .icon {
+    background: transparent;
+}
+.nav-toggle:checked ~ .btn-burger .icon:before {
+    transform: rotate(-45deg);
+    top: 0;
+}
+.nav-toggle:checked ~ .btn-burger .icon:after {
+    transform: rotate(45deg);
+    top: 0;
+}
+.icon,
+.icon:before,
+.icon:after {
+    transition: all .8s;
+}
+.nav {
+    background-color: #5c55e7;
+    
+    
+}
+.nav-content a {
+    display: block;
+    text-decoration: none;
+}
+.nav-content {
+    list-style: none;
+    display: none;
+    margin: 0;
+}
+.nav-content li {
+    margin: 0;
+    padding: 10px;
+}
+.nav-toggle:checked ~ .nav .nav-content {
+    display: block;
+}
+
+
+.about{
+    width:375px;
+    font-family: HP Simplified Hans ;
+    color:#707070;
+    letter-spacing: 4.25px;
+    padding:40px 40px 0px 40px;
+    position: relative;
+    top:50px;
+    margin-bottom:-50px;
+    overflow-x: hidden;
+}
+.ab-title{
+    font-size: 20px;
+}
+
+#ab-name{
+    padding-left: 15px;
+}
+.ab-img{
+    transform:scale(0.5,0.5);
+    position: relative;
+    top:-150px;
+    left:-170px;
+}
+.ab-content{
+    margin-top:50px;
+    display: block;
+}
+#ab-txt{
+    box-sizing:border-box;
+    width:100%;
+    color:#707070;
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 3px;
+    display: block;
+    position:relative;
+    top:-250px;
+    left:-12.5px;
+    
+}
+.ab-skill{
+    position: relative;
+    top:-200px;
+    margin-top:-50px;
+    margin-bottom:-150px;
+}
+#skill{
+    position: relative;
+    top:-50px;
+    left:-380px;
+    transform: scale(0.3,0.3);
+}
+#ab-back{
+    padding: 0px 0px;
+}
+}
