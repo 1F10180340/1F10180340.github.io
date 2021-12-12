@@ -7,6 +7,11 @@ a{
   color:#707070;
   letter-spacing: 4.25px;
 }
+a:hover{
+    text-decoration: none;
+    color:#707070;
+    text-shadow: #707070 0.5px 0.5px; 
+}
 .imgshadow{
     box-shadow: 15px 15px 10px -10px  rgb(182, 182, 182);
 }
@@ -98,11 +103,17 @@ main{
     position: relative;;
     right:70%;
 }
-
   .design_page{
     font-size:15.25px;
     border:solid 3px #707070;
-    padding:6.75px 26px 6.75px 26px;
+    padding:6.75px 50px 6.75px 50px;
+    font-family: HP Simplified Hans ;
+    color:#707070;
+    letter-spacing: 4.25px;
+  }
+  .design_page:hover{
+    background-color: #707070;
+    color:#EFEEE9;
   }
   .body_design{
     padding-bottom:50px;
